@@ -14,7 +14,7 @@ def test_addition_with_negative():
 def test_subtraction_with_negative():
     assert 5 - (-3) == 2   
 def test_multiplication_with_zero():
-    assert 0 * 5 == 0
+    assert 0 * 5 == -1
 def test_division_by_zero():
     with pytest.raises(ZeroDivisionError):
         _ = 10 / 0  
